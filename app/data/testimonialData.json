@@ -1,0 +1,20 @@
+[
+    {
+      "name": "John Doe",
+      "jobTitle": "CEO, Example Corp",
+      "description": "This is the best service I’ve ever used. The team is amazing, and the product is top-notch.",
+      "img": "/testimonial-skip-01.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "jobTitle": "Marketing Director, Tech Solutions",
+      "description": "Incredible experience! Highly recommend. The support was top-tier, and the product exceeded expectations.",
+      "img": "testimonial-skip-01-1.jpg"
+    },
+    {
+      "name": "Alice Johnson",
+      "jobTitle": "Product Manager, Creative Agency",
+      "description": "Absolutely amazing service. My experience was fantastic from start to finish!",
+      "img": "testimonial-skip-02-1.jpg"
+    }
+  ]
