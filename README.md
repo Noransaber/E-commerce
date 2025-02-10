@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ My E-Commerce App
 
-## Getting Started
+## 🚀 Overview
 
-First, run the development server:
+My E-Commerce App is a fully responsive Next.js-based e-commerce platform where users can browse products, add items to their cart, adjust quantities, and securely checkout using Stripe.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🎯 Features
+
+- **Home Page**: Displays featured products and categories.
+- **About Page**: Information about the store.
+- **Contact Page**: Contact form using emailjs-com for user inquiries.
+- **Product Page**: Shows detailed product information with quantity selection.
+- **Cart System**:
+  - Click the cart icon on any product to add it.
+  - Updates the number of items dynamically.
+  - Navigate to /cart to view selected items.
+  - Increase or decrease product quantity or remove items.
+- **Checkout with Stripe**:
+  - Secure payments using @stripe/react-stripe-js and @stripe/stripe-js.
+  - Displays Stripe payment form upon checkout.
+- **Responsive Design** : Optimized for desktop and mobile using Tailwind CSS.
+
+## 🛠️ Tech Stack
+
+**Frontend**: Next.js (v15), React (v19)
+**UI Styling**: Tailwind CSS
+**Icons**: Font Awesome & React Icons
+**Email Support**: EmailJS
+**Payments**: Stripe integration
+**TypeScript**: Strongly typed components for better scalability
+
+## 📦 Installation & Setup
+
+### Prerequisites:
+
+- Node.js (v16+ recommended)
+- npm or yarn
+
+### 1️⃣Clone the Repository
+
+```
+git clone https://github.com/yourusername/my-ecommerce-app.git
+cd my-ecommerce-app
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install  # or yarn install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
 
-## Learn More
+### 3️⃣ Configure Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a .env.local file in the root directory and add your Stripe API keys:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4️⃣ Run the Development Server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+npm run dev  # or yarn dev
+```
 
-## Deploy on Vercel
+### 5️⃣ Build for Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm run build
+npm start
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+
+## 🛒 Usage Guide
+
+- Browse products on the home page.
+- Click a product to view details and adjust quantity.
+- Add items to the cart.
+- Go to /cart to update or remove items.
+- Click checkout to enter payment details.
+- Complete the payment using Stripe.
+- Receive a confirmation email.
+
+## 📷 Screenshots
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
